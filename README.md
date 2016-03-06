@@ -35,6 +35,8 @@ If the data attribute is not set, then the default value is 7 days until the kli
 
 <p>The good thing about <em><strong>Klippy</strong></em>&nbsp;is, he knows whether or not if you have<em><strong> jQuery.cookie</strong></em> included in the web project. If you don&#39;t have it included, <em><strong>Klippy</strong></em> will include it for you.</p>
 
+### Se live demo <a href="http://dimitrigogios.com/dservice/#Frontend-scripts-by-dimitri-gogios" target="_blank">here</a>
+
 <br/>
 ## License
 The MIT License (MIT)
