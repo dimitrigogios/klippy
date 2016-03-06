@@ -1,5 +1,5 @@
 ## klippy.js
-<p>Do you remember Microsoft&#39;s Office 97 helper &quot;Clippy&quot;? I just &quot;found&quot; <em><strong>Klippy</strong></em>, a real look alike <em><strong>Clippy</strong></em>.</p>
+<p>Do you remember Microsoft&#39;s Office 97 helper &quot;Clippy&quot;? Well, I just &quot;found&quot; <em><strong>Klippy</strong></em>, a real look alike <em><strong>Clippy</strong></em>.</p>
 
 <p>I put together a little js-plugin that serves as a &quot;Cookie acceptance info&quot;. <em><strong>Klippy</strong></em> will happily show up on your page over and over again, always with the same smile, to let your visitors know whether or not you&#39;re using cookies on you site.</p>
 
