@@ -1,5 +1,5 @@
 ## klippy.js
-<p>Do you remember Microsoft&#39;s Office 97 helper &quot;Clippy&quot;? I was having a kind of nostalgic and productive weekend, where I &quot;found&quot; <em><strong>Klippy</strong></em>, a real look alike <em><strong>Clippy</strong></em>.</p>
+<p>Do you remember Microsoft&#39;s Office 97 helper &quot;Clippy&quot;? I just &quot;found&quot; <em><strong>Klippy</strong></em>, a real look alike <em><strong>Clippy</strong></em>.</p>
 
 <p>I put together a little js-plugin that serves as a &quot;Cookie acceptance info&quot;. <em><strong>Klippy</strong></em> will happily show up on your page over and over again, always with the same smile, to let your visitors know whether or not you&#39;re using cookies on you site.</p>
 
@@ -14,7 +14,8 @@
     <li>Place a div with the cookie-info and then give the div&nbsp;the class <strong>klippy</strong></li>
 </ul>
 
-<p>(optionally you can give an expiration time by adding a data-attribute - <strong>data-expire</strong>. The number should be in whole days, ex. data-expire=&quot;7&quot;)</p>
+<p>Optionally you can give an expiration time by adding a data-attribute - <strong>data-expire</strong>. The number should be in whole days, ex. data-expire=&quot;7&quot;<br/>
+If the data attribute is not set, then the default value is 7 days until the klippy-cookie expires!</p>
 
 <p>Code examples as shown below:</p>
 
