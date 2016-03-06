@@ -1,0 +1,117 @@
+.klippy {
+	position: fixed;
+	z-index: 9999;
+	bottom: 20px;
+	right: 30px;
+	opacity: 0;
+
+	-webkit-transition: all 590ms ease-in;
+       -moz-transition: all 590ms ease-in;
+        -ms-transition: all 590ms ease-in;
+         -o-transition: all 590ms ease-in;
+            transition: all 590ms ease-in;
+}	
+	.klippy.show {
+		display: block !important;
+		opacity: 1;
+	}
+	.klippy.close {
+		display: none !important;
+		visibility: hidden !important;
+		opacity: hidden !important;
+		width: 0 !important;
+		height: 0 !important;
+		overflow: hidden !important;
+	}
+
+.klippy .bubble {
+	background-color: #fcf8c6;
+	border: 1px solid #2c2c18;
+	border-radius: 8px;
+	padding: 15px;
+	position: relative;
+	display: inline-block;
+	max-width: 250px;
+
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.klippy .bubble span {
+	background-image: url('http://dimitrigogios.com/properties/images/bubble-point.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 23px;
+
+	position: absolute;
+	bottom: -23px;
+	left: 50%;
+}
+
+.klippy .bubble hr {
+	border: 0;
+	border-bottom: 1px solid #000;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.klippy .bubble button {
+	background-color: transparent;
+	border: 1px solid #c8c2b1;
+	border-radius: 4px;
+	padding: 5px 7px;
+	font-size: 14px;
+
+	cursor: pointer;
+}
+.klippy .bubble button.ok {
+	float: right;
+}
+
+.klippy .img-klippy {
+	max-width: 180px;
+}
+
+.klippy .img-klippy img {
+	max-height: 100% !important;
+	max-width: 100% !important;
+	width: auto !important;
+}
+
+@media (max-width: 767px) {
+	.klippy {
+		right: 15px;
+	}
+	.klippy .bubble {
+		padding: 10px;
+		max-width: 180px;
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+	.klippy .bubble span {
+		background-image: url('http://dimitrigogios.com/properties/images/bubble-point.png');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		width: 16px;
+		height: 23px;
+
+		position: absolute;
+		bottom: -23px;
+		left: 50%;
+	}
+	.klippy .bubble hr {
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	.klippy .bubble button {
+		padding: 3px 5px;
+		font-size: 12px;
+	}
+	.klippy .img-klippy {
+		max-width: 90px;
+		left: 30px;
+    	position: relative;
+	}
+}
